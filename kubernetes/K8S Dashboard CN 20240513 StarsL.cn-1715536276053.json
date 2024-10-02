@@ -4317,16 +4317,16 @@
               "Value #t": "Flow",
               "Value #U": "Flow",
               "container": "container name",
-              "Instance": "", "",
+              "Instance": "",
               "IP": "pod ip",
               "namespace": "Naming space",
-              "namespace 1": "", "",,,
+              "namespace 1": "",
               "namespace 12": "Naming space",
               "Node": "Node",
-              "Node 1": "",,,
+              "Node 1": "",
               "Node 11": "Node",
               "pod": "pod name",
-              "Priority_Class": "" "" ""
+              "Priority_Class": ""
             }
           }
         },
