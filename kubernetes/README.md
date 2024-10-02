@@ -1,40 +1,40 @@
-### Kubernetes Grafana看板更新啦！kube-state-metrics部署与JOB配置说明
+### O painel do Kubernetes Grafana foi atualizado! implantação de kube-state-metrics e instruções de configuração de JOB
 ### [https://mp.weixin.qq.com/s/R88DraaaS3bpm3PurzpP9g](https://mp.weixin.qq.com/s/R88DraaaS3bpm3PurzpP9g)
 
 ---
 
-#### kubernetes资源全面展示！包含K8S整体资源总览、微服务资源明细、Pod资源明细及K8S网络带宽，优化重要指标展示。
-### 更新说明
+#### Exibição abrangente de recursos do Kubernetes! Inclui visão geral dos recursos K8S, detalhes de recursos de microsserviço, detalhes de recursos de pod e largura de banda de rede K8S, otimizando a exibição de indicadores importantes.
+### Instruções de atualização
 ##### v20240513
-1. 更新了看板的所有Panel支持最新样式,优化展示性能,已兼容Grafana10.X版本.
-2. 增加了K8S总体的状态条展示节点与微服务资源的统计.
-3. 增加了PVC的使用情况,各命名空间的CPU,内存使用曲线图.
-4. 优化了Pod与微服务资源明细表格的展示字段与视觉效果.
-5. 优化了Pod与微服务CPU与内存使用量的曲线图中可以直接展示出该资源的Limit值红线.
-6. 修复了Pod重启导致短时间内展示的Pod资源数据不准确的BUG.
-7. 调整了多个图表,曲线图的展示效果与描述,优化部分指标数据更加精准。
-8. 增加了各个版本的kube-state-metrics国内镜像.参考[【这里】](https://github.com/starsliao/Prometheus/tree/master/kubernetes)
-9. 增加了Prometheus on K8S的JOB配置说明.
+1. Todos os painéis do quadro Kanban foram atualizados para oferecer suporte aos estilos mais recentes, desempenho de exibição otimizado e são compatíveis com a versão Grafana10.X
+2. Adicionada barra de status geral do K8S para exibir estatísticas de nós e recursos de microsserviço.
+3. Adicionados gráficos de curva de uso de PVC, CPU e uso de memória de cada namespace.
+4. Otimizou os campos de exibição e os efeitos visuais das tabelas de detalhes de recursos de microsserviço e pod.
+5. Otimizado o gráfico de curva de uso de CPU e memória de pod e microsserviço para exibir diretamente a linha vermelha do valor limite do recurso.
+6. Corrigido o bug que causava a exibição imprecisa de dados de recursos do pod em um curto período de tempo devido à reinicialização do pod.
+7. Ajustou os efeitos de exibição e as descrições de vários gráficos e gráficos de curvas e otimizou alguns dados do indicador para serem mais precisos.
+8. Adicionadas imagens domésticas de várias versões do kube-state-metrics Referência [[aqui]](https://github.com/starsliao/Prometheus/tree/master/kubernetes)
+9. Adicionadas instruções de configuração de JOB para Prometheus no K8S.
 
 ---
 
-### 截图
-#### 整体资源总览
+### captura de tela
+#### Visão geral geral dos recursos
 ![](https://grafana.com/api/dashboards/13105/images/16207/image)
 ![](https://grafana.com/api/dashboards/13105/images/16208/image)
-#### Pod资源明细
+#### Detalhes do recurso do pod
 ![](https://grafana.com/api/dashboards/13105/images/16209/image)
-#### 微服务资源明细
+#### Detalhes do recurso de microsserviço
 ![](https://grafana.com/api/dashboards/13105/images/16210/image)
 
-### 赞赏与关注公众号【**云原生DevOps**】加入交流群（请备注：K8S），获取更多...
+### Aprecie e siga a conta pública [**Cloud Native DevOps**] e junte-se ao grupo de comunicação (observe: K8S) para obter mais...
 
-**如果看不到图片请点击该链接：[https://starsl.cn/static/img/thanks.png](https://starsl.cn/static/img/thanks.png)**
+**Se você não consegue ver a imagem, clique neste link: [https://starsl.cn/static/img/thanks.png](https://starsl.cn/static/img/thanks.png)**
 ![](https://starsl.cn/static/img/thanks.png)
 
 ---
 
-### 看板下载
-- Grafana看板ID：13105
-- Grafana看板地址：[https://grafana.com/grafana/dashboards/13105](https://grafana.com/grafana/dashboards/13105)
-- 项目仓库：[https://github.com/starsliao/Prometheus/tree/master/kubernetes](https://github.com/starsliao/Prometheus/tree/master/kubernetes)
+### Baixar Kanban
+ID da placa Grafana: 13105
+- Endereço do painel Grafana: [https://grafana.com/grafana/dashboards/13105](https://grafana.com/grafana/dashboards/13105)
+- Armazém do projeto: [https://github.com/starsliao/Prometheus/tree/master/kubernetes](https://github.com/starsliao/Prometheus/tree/master/kubernetes)
