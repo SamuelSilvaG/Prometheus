@@ -334,7 +334,7 @@
           "refId": "B"
         }
       ],
-      "title": "节点CPU比例",
+      "title": "Node CPU Ratio",
       "type": "bargauge"
     },
     {
